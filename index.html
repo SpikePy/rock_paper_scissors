@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <link rel="icon" href="scissors.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body ondragstart="return false" ondrop="return false">
+    <h1>Rock Paper Scissors</h1>
+    <div id="div-choose">
+        <h2>Click to choose</h2>
+        <a href="#" onclick='match("rock")'><img src="rock.svg" alt="rock"></a>
+        <a href="#" onclick='match("paper")'><img src="paper.svg" alt="paper"></a>
+        <a href="#" onclick='match("scissors")'><img src="scissors.svg" alt="scissors"></a>
+    </div>
+    <div id='div-you' class='hidden'>
+        <h2>You</h2>
+        <img id='img_you'>
+    </div>
+    <div id='div-computer' class='hidden'>
+        <h2>Computer</h2>
+        <img id='img_computer'>
+    </div>
+    <div id='div-result' class='hidden'>
+        <h2>Result</h2>
+        <p id='p-result'></p>
+    </div>
+    <button id='button-again' onclick='reset()' class='hidden'>Play Again</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select:   none;
+    -o-user-select:     none;
+    user-select:        none;
+
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: .5em;
+    font-size: 2.5em;
+}
+
+img {
+  margin: 0 auto 3em;
+  display: block;
+  max-width: 90%
+}
+
+p {
+    font-size: 1.5em;
+}
+
+button {
+    padding: 1em;
+}
+
+.hidden {
+    display: none;
+}
