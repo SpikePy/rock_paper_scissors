@@ -5,11 +5,10 @@
   "display": "standalone",
   "background_color" : "#fff" ,
   "description": "Play Rock Paper Scissors",
-  "icons": [
-    {
-      "src": "scissors.svg",
-      "sizes": "any",
-      "type": "image/svg"
-    }
-  ]
+  "icons":
+  {
+    "src": "scissors.svg",
+    "sizes": "any",
+    "type": "image/svg"
+  }
 }
