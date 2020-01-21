@@ -19,14 +19,15 @@ h1 {
 
 h2 {
     font-size: 1.75em;
-    margin-bottom: .5em;
+    padding: 0;
+    margin: 1em;
 }
 
 img {
   margin: 1em auto 3em;
   display: block;
   max-width: 90%;
-  max-height: 23vh;
+  max-height: calc(30vh - 5em);
 }
 
 p {
