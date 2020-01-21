@@ -7,11 +7,6 @@
   "description": "Play Rock Paper Scissors",
   "icons": [
     {
-			"src": "favicon.png",
-			"sizes": "32x32",
-			"type": "image/png"
-		},
-    {
       "src": "scissors.svg",
       "sizes": "any",
       "type": "image/svg"
