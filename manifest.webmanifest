@@ -7,22 +7,22 @@
   "description": "Play Rock Paper Scissors",
   "icons": [{
     "src": "scissors.svg",
-    "sizes": "48x48",
+    "sizes": "48x48"
   }, {
     "src": "scissors.svg",
-    "sizes": "72x72",
+    "sizes": "72x72"
   }, {
     "src": "scissors.svg",
-    "sizes": "96x96",
+    "sizes": "96x96"
   }, {
     "src": "scissors.svg",
-    "sizes": "144x144",
+    "sizes": "144x144"
   }, {
     "src": "scissors.svg",
-    "sizes": "168x168",
+    "sizes": "168x168"
   }, {
     "src": "scissors.svg",
-    "sizes": "192x192",
+    "sizes": "192x192"
   }],
   "related_applications": [{
     "platform": "Web"
