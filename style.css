@@ -27,7 +27,7 @@ img {
   margin: 1em auto 3em;
   display: block;
   max-width: 90%;
-  max-height: calc(30vh - 5em);
+  max-height: calc(30vh - 6em);
 }
 
 p {
