@@ -7,7 +7,7 @@ body {
     -o-user-select:     none;
     user-select:        none;
 
-    font-size: 18px;
+    font-size: 14px;
 }
 
 h1 {
@@ -25,7 +25,8 @@ h2 {
 img {
   margin: 0 auto 3em;
   display: block;
-  max-width: 90%
+  max-width: 90%;
+  max-height: 20vh;
 }
 
 p {
