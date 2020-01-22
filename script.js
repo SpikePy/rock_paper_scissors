@@ -1,18 +1,7 @@
 // Let computer choose random hand sign
 function computer_choose() {
-    random = Math.random() * 3
-
-    switch (true) {
-        case random < 1:
-            computer = 'rock'
-            break;
-        case random < 2:
-            computer = 'paper'
-            break;
-        case random < 3:
-            computer = 'scissors'
-            break;
-    }
+    signs = ["rock", "paper", "scissors"]
+    computer = signs[Math.floor(Math.random() * signs.length)]
 
     document.getElementById('img_computer').alt = computer
     document.getElementById('img_computer').src = computer +'.svg'
