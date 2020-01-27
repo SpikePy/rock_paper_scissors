@@ -24,26 +24,17 @@ function match(you_choose) {
         case you === computer:
             result = text_draw
             break;
-        case you === 'rock' && computer === 'paper':
-            result = text_lose
-            break;
         case you === 'rock' && computer === 'scissors':
             result = text_win
             break;
         case you === 'paper' && computer === 'rock':
             result = text_win
             break;
-        case you === 'paper' && computer === 'scissors':
-            result = text_lose
-            break;
-        case you === 'scissors' && computer === 'rock':
-            result = text_lose
-            break;
         case you === 'scissors' && computer === 'paper':
             result = text_win
             break;
         default:
-            result = 'error'
+            result = text_lose
     }
 
     // Write outcome of the match to the result paragraph
