@@ -9,12 +9,16 @@ function computer_choose() {
 }
 
 // Get your choice, compare it to the computer, "calculate" the result and show it
-function match(you_choose) {
-    document.getElementById('img_you').alt = you_choose
-    document.getElementById('img_you').src = you_choose +'.svg'
+function eval(you) {
+    if (you != 'rock' && you != 'paper' && you != 'scissors') {
+        alert('Don\'t you try funny things in my app!')
+        location.reload()
+    }
+
+    document.getElementById('img_you').alt = you
+    document.getElementById('img_you').src = you +'.svg'
 
     computer = computer_choose()
-    you      = you_choose
 
     text_win  = "You Win!"
     text_lose = "You Lose!"
